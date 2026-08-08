@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Racing Challenge</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="game">
+
+<div id="startScreen">
+<h1>🏁 Car Racing Challenge</h1>
+<p>Developed by Keshav</p>
+<button id="startBtn">START GAME</button>
+</div>
+
+<div id="hud">
+<div id="score">Score : 0</div>
+<div id="level">Level : 1</div>
+</div>
+
+<div id="road">
+
+<img src="images/player-car.png" id="player">
+
+<img src="images/enemy-car.png" class="enemy" id="enemy1">
+<img src="images/enemy-car.png" class="enemy" id="enemy2">
+<img src="images/enemy-car.png" class="enemy" id="enemy3">
+
+<div class="roadLine" style="top:-100px;"></div>
+<div class="roadLine" style="top:120px;"></div>
+<div class="roadLine" style="top:340px;"></div>
+<div class="roadLine" style="top:560px;"></div>
+
+</div>
+
+<div id="controls">
+<button id="leftBtn">◀</button>
+<button id="rightBtn">▶</button>
+</div>
+
+<div id="gameOver">
+<h2>GAME OVER</h2>
+<button id="restartBtn">RESTART</button>
+</div>
+
+<div id="winner">
+<h2>🏆 WINNER 🏆</h2>
+<p>You Completed The Challenge!</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
